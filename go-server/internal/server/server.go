@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/websocket"
-	"github.com/vikasbhutra/mcp-server/go-server/internal/agent"
+	"github.com/vikas-weave/mcp-server/go-server/internal/agent"
 )
 
 var upgrader = websocket.Upgrader{
